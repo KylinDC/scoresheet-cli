@@ -5,7 +5,8 @@
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
-    "test": "node run-tests.js"
+    "test": "node run-tests.js",
+    "test-single": "jasmine-node --verbose"
   },
   "repository": {
     "type": "git",
@@ -20,5 +21,9 @@
   "devDependencies": {
     "jasmine": "^2.6.0",
     "sinon": "^2.3.5"
+  },
+  "dependencies": {
+    "jasmine-node": "^1.16.2",
+    "readline-sync": "^1.4.9"
   }
 }
